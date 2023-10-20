@@ -16,6 +16,10 @@ body {
   font-family: var(--font-family);
 }
 
+.main {
+  padding: 150px;
+}
+
 .body--primary {
   background-color: var(--color-primary);
   color: var(--color-text-on-primary);
