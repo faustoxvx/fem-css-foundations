@@ -50,6 +50,15 @@
                 <button class="button button--secondary">Contact Us</button>
             </div>
     </main>
+
+    <script>
+        const nav = document.querySelector(".nav");
+        const menu = document.querySelector(".menu");
+
+        menu.addEventListener("click", () => {
+            nav.classList.add("nav--visible");
+        });
+    </script>
 </body>
 
 </html>
