@@ -9,6 +9,10 @@
   fill: var(--color-text-on-primary);
 }
 
+.home .close path {
+  fill: var(--color-text-on-primary);
+}
+
 .home .main__sub-heading {
   font-size: 40px;
 }
